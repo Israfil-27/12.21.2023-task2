@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            padding: 20px;
+            text-align: center;
+        }
+
+        @media(min-width:500px) {
+            .my-div {
+                display: none;
+            }
+        }
+
+        @media(min-width:600px) { 
+        }
+
+        @media(min-width:700px) {
+            
+        }
+
+        @media(min-width:800px) {
+            .my-div {
+                width: 50%;
+                display: block;
+            }
+
+            .tbl {
+                display: none;
+            }
+        }
+
+        @media(min-width:900px) {
+            .my-div {
+                width: 25%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="tbl">
+        <h1>Employee</h1>
+        <table border="1" cellpadding="5" cellspacing="5">
+            <tr>
+                <td>Adı</td>
+                <td>Murat</td>
+            </tr>
+            <tr>
+                <td>Soyadı</td>
+                <td>Vuranok</td>
+            </tr>
+        </table>
+    </div>
+    <div class="my-div">
+        <table border="1" cellpadding="5" cellspacing="5">
+            <thead>
+                <tr>
+                    <th>Id </th>
+                    <th>FirstName</th>
+                    <th>LastName</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>Hire Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Murat</td>
+                    <td>Vuranok</td>
+                    <td>78976454</td>
+                    <td>murat@code.edu.az</td>
+                    <td>01.01.1001</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
