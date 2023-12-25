@@ -412,7 +412,7 @@ footer{
     width: 100%;
     background-color: #000000;
     color: #fff;
-    height: 400px;
+    height: 500px;
     table{
         padding: 5rem;
         tr{
@@ -458,10 +458,19 @@ footer{
         }
     }
     .liner{
-        width: 100%;
+        width: 80%;
         background-color: rgb(237, 237, 237);
-        height: 1px;
+        height: 5px;
         margin: 50px 0;
+        margin-left: 7.5%;
+    }
+    .footer-end{
+        @include flexS;
+        width: 100%;
+        padding: 3rem 0;
+        a{
+            color: #fff;
+        }
     }
 
 }
